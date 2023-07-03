@@ -4,25 +4,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" box="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>TaksCapms: Add Ofers</title>
 
 	<link rel="stylesheet" href="./css/addOffer.css">
+	<!-- <link rel="stylesheet" href="./css/phone.css"> -->
 </head>
 
 <body>
-	<!-- 
-	<div class="gradient-background">
-	</div>
-	<div class="gradient-2-background"> -->
-	</div>
 
-	<div class="form">
-
+       
 		<form action="/formData" method="post">
 			<div class="form-grid">
-				<h2>Add Offer</h2>
+				<h2 class="heading">Add Offer</h2>
 				<div class="form-box full">
-					<input type="text" id="name" name="name" required>
+					<input type="text" id="name" name="name" autocomplete="off">
 					<label class="form-label" for="name">Name</label>
 				</div>
 				<div class="form-box ">
@@ -44,7 +41,7 @@
 						<option value="NUll">Pura form bhej</option>
 				
 					</select>
-					<label class="form-label hide select-tag-label" for="category " >category</label>
+					<label class="form-label hide select-tag-label" for="category" >category</label>
 				</div>
 				<div class="form-box">
 					<select name="model" id="model" required>
@@ -57,7 +54,7 @@
 				<div class="form-box discription ">
 		
 					<textarea id="discription" name="discription" required></textarea>
-					<label class="form-label" for="discription ">discription</label>
+					<label class="form-label" for="discription">discription</label>
 				</div>
 				<div class="form-box full">
 					<select name="event-2-on-off" id="event-2-on-off">
@@ -111,15 +108,13 @@
 			</div>
 
 		</form>
-	</div>
+	
 
 
 
   <script src="./js/select.js"></script>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
+	
 </body>
 
 </html>
