@@ -11,19 +11,22 @@
   box-sizing: border-box;
   font-family: 'Noto Sans', sans-serif;
 }
-html{
+
+html {
   height: 100%;
 }
-body{
+
+body {
   height: 100%;
   background-image: linear-gradient(red, yellow);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
+
 .form-grid {
   padding: 10px 50px;
   width: 900px;
@@ -153,9 +156,12 @@ select:focus {
   font-weight: 600;
   color: white;
   background: #fa4242;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px;
+  padding-bottom: 6px;
+
 }
 
 .submit-btn:hover {
@@ -167,5 +173,3 @@ select:focus {
 .hide {
   display: none;
 }
-
-

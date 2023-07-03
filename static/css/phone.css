@@ -1,15 +1,32 @@
-
 @media only screen and (min-width: 300px) and (max-width: 800px) {
-    .form-grid{
+    .form-grid {
         width: 320px !important;
         padding: 10px 20px !important;
         border-radius: 10px !important;
 
     }
+
     .heading {
         font-size: 25px !important;
     }
-    .submit-btn{
-        width: 53%;
+
+    .form-label,
+    input[type="text"],
+    select,
+    #discription {
+        font-size: 16px !important;
+    }
+
+    input:focus~label,
+    input:not(:focus):valid~label,
+    #discription:focus~label,
+    #discription:not(:focus):valid~label,
+    .select-tag-label {
+        font-size: 10px !important;
+    }
+
+
+    .submit-btn {
+        width: 53% !important;
     }
 }
