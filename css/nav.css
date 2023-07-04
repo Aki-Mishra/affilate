@@ -1,0 +1,74 @@
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav>h3 {
+    padding: 0 0 0 65px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav>ul {
+    width: 100%;
+    padding: 0px 8%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>h3,
+.nav>ul {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.list-item {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.login-signup-btn {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.sign-in{
+    background-color: rgba(255, 255, 255, 0) !important;
+}

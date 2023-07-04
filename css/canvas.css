@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oxygen&display=swap');
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+canvas{
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 70%);
+
+}
+

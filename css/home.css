@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Heebo:wght@800&family=Noto+Sans&family=Oxygen&display=swap');
+
+  /* font-family: 'Asap', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oxygen', sans-serif; */
+
+
+@import 'nav.css';
+:root{
+    --heading-font : 'Heebo', sans-serif;
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    margin: 100px 0 0 100px;
+    background: transparent;
+    position: absolute;
+}
+.content-heading{
+    font-family: var(--heading-font);
+    width: 600px;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 6rem;
+
+}
+.para{
+
+}
+.para p{
+    width: 500px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+.para + div{
+    margin: 20px 0;
+}
+.content-btn{
+    background-color: black !important;
+}
+.content-btn + .sign-up{
+    background-color: transparent !important;
+    color: black;
+}
