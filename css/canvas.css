@@ -11,15 +11,15 @@
 html,body {
   margin:0;
   padding:0;
-  width:100%;
-  height:100%;
+  /* width:100%;
+  height:100%; */
   overflow:hidden;
 }
 #gradient-canvas {
-  clip-path: polygon(0 0 , 100% 0 , 100% 100%, 0 60%);
+  clip-path: polygon(0 0 , 100% 0 , 100% 40%, 0 90%);
   position: absolute;
-  --gradient-color-1: #fff; 
-  --gradient-color-2: #000; 
+  --gradient-color-1: #02b0f5; 
+  --gradient-color-2: #cf3737; 
   --gradient-color-3: #7038ff;  
   --gradient-color-4: #ffba27;
   z-index:-10;
