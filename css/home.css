@@ -17,11 +17,19 @@ font-family: 'Oxygen', sans-serif; */
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100%;
+    width: 100%;
+
+}
 .content{
-    margin: 100px 0 0 100px;
+ 
+    display: flex;
+    margin: 100px 0 0 46px;
     background: transparent;
     position: absolute;
 }
+
 .content-heading{
     font-family: var(--heading-font);
     width: 600px;
@@ -34,7 +42,6 @@ font-family: 'Oxygen', sans-serif; */
 
 }
 .para p{
-    width: 500px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
 }
@@ -47,4 +54,11 @@ font-family: 'Oxygen', sans-serif; */
 .content-btn + .sign-up{
     background-color: transparent !important;
     color: black;
+}
+
+.content-logo{
+
+}
+.content-logo>img{
+    width: 500px;
 }

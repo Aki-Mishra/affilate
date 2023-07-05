@@ -11,11 +11,15 @@
 html,body {
   margin:0;
   padding:0;
-  /* width:100%;
-  height:100%; */
-  overflow:hidden;
+  width:100%;
+  height:100%;
+
 }
+/* body::-webkit-scrollbar{
+  display: none;
+} */
 #gradient-canvas {
+  width: 100%;
   clip-path: polygon(0 0 , 100% 0 , 100% 40%, 0 90%);
   position: absolute;
   --gradient-color-1: #02b0f5; 
