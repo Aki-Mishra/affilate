@@ -38,9 +38,7 @@ body{
     line-height: 6rem;
 
 }
-.para{
 
-}
 .para p{
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
@@ -56,9 +54,6 @@ body{
     color: black;
 }
 
-.content-logo{
-
-}
 .content-logo>img{
     width: 500px;
 }
